@@ -15,7 +15,7 @@ Print X and y: Finally, print the matrix of features (X) and the dependent varia
 import pandas as pd
 
 # Loading the Iris dataset
-ds = pd.read_csv("iris.csv")
+ds = pd.read_csv("iris.")
 
 # Creating the matrix of features (X) and the dependent variable vector (y)
 X = ds.iloc[:, :-1].values
